@@ -1,0 +1,58 @@
+═══════════════════════════════════════════════════════════════
+  POWERGRID - QUICK START GUIDE
+═══════════════════════════════════════════════════════════════
+
+⚠️  IMPORTANT: You need to run BOTH backend and frontend!
+
+═══════════════════════════════════════════════════════════════
+STEP 1: START BACKEND SERVER
+═══════════════════════════════════════════════════════════════
+
+Open Terminal/Command Prompt #1:
+
+  cd user-page/backend
+  npm start
+
+✅ Wait until you see: "🚀 Server is running on http://localhost:5000"
+
+═══════════════════════════════════════════════════════════════
+STEP 2: START FRONTEND
+═══════════════════════════════════════════════════════════════
+
+Open NEW Terminal/Command Prompt #2:
+
+  cd user-page
+  npm start
+
+✅ Browser will open automatically at http://localhost:3000
+
+═══════════════════════════════════════════════════════════════
+STEP 3: LOGIN
+═══════════════════════════════════════════════════════════════
+
+Use these credentials:
+  Meter Serial: MTR-001
+  Phone Number: 9876543210
+
+═══════════════════════════════════════════════════════════════
+TROUBLESHOOTING
+═══════════════════════════════════════════════════════════════
+
+❌ Getting "Invalid credentials" error?
+  → Make sure backend is running (check Terminal #1)
+  → Visit http://localhost:5000/api/health to test backend
+
+❌ Backend won't start?
+  → Make sure you're in: user-page/backend folder
+  → Run: npm install (if not done already)
+  → Check if port 5000 is available
+
+❌ Frontend can't connect?
+  → Make sure backend is running FIRST
+  → Check browser console (F12) for errors
+
+═══════════════════════════════════════════════════════════════
+
+For detailed instructions, see: QUICK_START.md
+
+

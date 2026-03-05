@@ -1,0 +1,9 @@
+flask
+firebase-admin
+opencv-python
+ultralytics
+numpy
+pandas
+python-dotenv
+requests
+chart-js-py
