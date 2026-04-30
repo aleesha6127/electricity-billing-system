@@ -9,6 +9,31 @@ This repository contains a two-part application for managing and viewing electri
 
 Each subproject has its own README with details on setup and available commands. Refer to those for development instructions specific to the frontend or backend.
 
+
+## Screenshots
+
+### Admin Login
+![Admin Login](screenshots/admin-login.png)
+
+### Admin Dashboard
+![Admin Dashboard](screenshots/admin-dashboard.png)
+
+### Add New Meter
+![Add Meter](screenshots/add-meter.png)
+
+### User Login
+![User Login](screenshots/user-login.png)
+
+### User Dashboard
+![User Dashboard](screenshots/user-dashboard.png)
+
+### Payments Page
+![Payments Page](screenshots/payments-page.png)
+
+### Profile Page
+![Profile Page](screenshots/profile-page.png)
+
+
 ## Setup
 
 1. **Install dependencies**
